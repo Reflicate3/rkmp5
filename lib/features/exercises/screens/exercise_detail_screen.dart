@@ -48,10 +48,7 @@ class ExerciseDetailScreen extends StatelessWidget {
             const SizedBox(height: 8),
             Text(item.description),
             const Spacer(),
-            Text(
-              'Добавлено: ${_formatDate(item.createdAt)}',
-              style: Theme.of(context).textTheme.bodySmall,
-            ),
+
           ],
         ),
       ),
